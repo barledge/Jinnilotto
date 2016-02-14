@@ -1,0 +1,1017 @@
+
+
+
+@media (max-width: 768px) {
+    #desktop-view {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #desktop-view {
+        display: block;
+    }
+
+    #cell-view {
+        display: none;
+    }
+}
+
+.cell-header-wrapper {
+    background: url("../img/cell/cell-header-bg.png") 50% 50% no-repeat;
+    background-size: cover;
+    height: 230px;
+}
+
+#cell-logo {
+    height: 80px;
+    width: auto;
+    position: absolute;
+    top: 10px;
+    left: 43%;
+}
+
+@media (min-width: 480px) {
+    #cell-logo {
+        left: 47%;
+    }
+}
+
+.powerball-mini {
+    margin-top: 20px;
+
+}
+
+.cell-menu-button {
+    background: none;
+    color: #ffffff;
+    border: none;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.cell-header-wrapper h3 {
+    padding-top: 0;
+    margin-top: 5px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 18px;
+}
+
+.cell-header-wrapper h2 {
+    margin-top: -10px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.cell-header-wrapper p  {
+    margin-top: -10px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.cell-buttons-header {
+    text-align: center;
+    color: #ffffff;
+}
+
+.cell-buttons-header button {
+    height: 40px;
+    width: 120px;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+#cell-play-now-header {
+    background: #8bcc38;
+}
+
+#cell-quick-play-header {
+    background: #ff8e00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-buttons-cell {
+    background: rgba(0,0,0,0.3);
+    height: 65px;
+
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -55px;
+    left: 0;
+    right: 0;
+}
+
+.header-buttons-cell button,
+.header-buttons-cell p {
+    display: inline;
+    position: relative;
+}
+
+.header-buttons-cell button {
+    width: 120px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 13px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: white;
+    padding: 0;
+    text-shadow: 1px 1px 1px #999999;
+}
+
+@media screen and (min-width: 480px) {
+    .header-buttons-cell button {
+        width: 180px;
+        height: 44px;
+        font-size: 18px;
+        font-weight: 600;
+        display: inline;
+        position: relative;
+        margin-bottom: 0;
+        margin-top: 13px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        color: white;
+        padding: 0;
+        text-shadow: 1px 1px 1px #999999;
+    }
+}
+
+.smaller-cell {
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: -15px;
+    color: rgba(255,255,255,0);
+    text-shadow: none;
+}
+
+.absolute-tickets-cell {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+
+}
+
+#header-quick-play-cell {
+    position: relative;
+    background: #ff8e00;
+    border: 1px solid #d57700;
+}
+
+.header-buttons-cell p {
+    position: relative;
+    top: 8px;
+    padding-top: 15px;
+    margin: 0 -10px;
+    color: #ffffff;
+    text-shadow: 1px -1px 1px #444444;
+}
+
+#header-play-now-cell {
+    background: #8bcc38;
+    border: 1px solid #6cb113;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cell-draws-section h1 {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.title-separator-cell {
+    width: 12%;
+    border: 1px solid #46aad5;
+    margin-top: 0;
+}
+
+
+.draws-title {
+    text-align: center;
+}
+
+.cell-games {
+    width: 300px;
+    height: 91px;
+    margin: 0 auto 15px auto;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #ededed;
+    border: 1px solid #bebebe;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.cell-game-1 {
+    background: url("../img/power-ball.png") 50% 50% no-repeat;
+    background-size: cover;
+    height: 89px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.cell-game-2 {
+    background: url("../img/mega-million.png") 50% 50% no-repeat;
+    background-size: cover;
+    height: 89px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.cell-game-3 {
+    background: url("../img/euro-million.png") 50% 50% no-repeat;
+    background-size: cover;
+    height: 89px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.cell-game-4 {
+    background: url("../img/euro-jackpot.png") 50% 50% no-repeat;
+    background-size: cover;
+    height: 89px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.cell-game-5 {
+    background: url("../img/superena-lotto.png") 50% 50% no-repeat;
+    background-size: cover;
+    height: 89px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.cell-games h2 {
+    padding-top: 10px;
+}
+
+.cell-games p {
+    text-align: left !important;
+    padding-left: 1px;
+}
+
+.cell-games h2,
+.cell-games p {
+    color: #158cde;
+}
+
+.cell-single-game {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 89px;
+}
+
+.cell-prize {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.cell-countdown {
+    margin-left: 15px;
+}
+
+.cell-play-button,
+.cell-quick-play-button,
+.cell-close-button {
+    height: 91px;
+    margin-right: -6px;
+    padding: 0;
+    width: 102px;
+    color: #ffffff;
+    font-weight: 600;
+    z-index: 9999;
+}
+
+.cell-play-button {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border:1px solid #bebebe;
+    background: #8bcc38;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.cell-quick-play-button {
+    border:1px solid #bebebe;
+    background: #ff8e00;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cell-close-button {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:1px solid #bebebe;
+    color: #b90000;
+    z-index: 9999;
+    background: #ededed;
+    font-size: 18px;
+}
+
+.overlay-buttons p {
+    position: absolute;
+    bottom: 0;
+    left: 125px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 480px) {
+    .overlay-buttons p {
+        position: absolute;
+        bottom: 0;
+        left: 170px;
+        color: #ffffff;
+    }
+}
+
+#cell-draws-section .col-xs-2 {
+    text-align: left;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #46aad5;
+}
+
+#cell-draws-section .col-xs-6 {
+    padding: 0;
+    margin: 0;
+}
+
+#cell-draws-section .col-xs-6 h2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    #cell-draws-section .col-xs-6 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #cell-draws-section .col-xs-6 h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .cell-games p {
+        text-align: left !important;
+        padding-left: 15px;
+    }
+}
+
+.overlay-buttons {
+    cursor: pointer;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 300px;
+    display: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: transparent;
+}
+
+
+@media screen and (min-width: 480px) {
+
+    .cell-games {
+        width: 420px;
+    }
+
+    .cell-game-1-info h2 {
+        text-align: center;
+    }
+
+    .cell-game-1-info p {
+        text-align: center;
+    }
+
+    .cell-game-2-info h2 {
+        text-align: center;
+    }
+
+    .cell-game-2-info p {
+        text-align: center;
+    }
+
+    .cell-game-3-info h2 {
+        text-align: center;
+    }
+
+    .cell-game-3-info p {
+        text-align: center;
+    }
+
+    .cell-game-4-info h2 {
+        text-align: center;
+    }
+
+    .cell-game-4-info p {
+        text-align: center;
+    }
+
+    .cell-game-5-info h2 {
+        text-align: center;
+    }
+
+    .cell-game-5-info p {
+        text-align: center;
+    }
+
+    .cell-play-button,
+    .cell-quick-play-button,
+    .cell-close-button {;
+        width: 142px;
+        z-index: 9999;
+    }
+
+    .overlay-buttons {
+        cursor: pointer;
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        width: 420px;
+        display: none;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        background: transparent;
+    }
+}
+
+.view-all-lotteries {
+    text-align: center;
+}
+
+.view-lotteries-btn {
+    width: 300px;
+    padding: 10px 15px;
+    border: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #46aad5;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.view-lotteries-btn:hover {
+    background-color: #66bde2;
+    color: #ffffff;
+    transition: 0.25s;
+}
+
+#cell-stats {
+    text-align: center;
+    margin: 10px auto;
+    width: 300px;
+}
+
+.cell-online-users {
+    margin: 10px 0;
+}
+
+.cell-online-users p {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 16px;
+    position: absolute;
+    width: 300px;
+    right: 0;
+    left: 8px;
+    bottom: 0;
+}
+
+.cell-total-jackpots {
+    margin: 10px 0;
+}
+
+.cell-total-jackpots p {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 16px;
+    position: absolute;
+    width: 300px;
+    right: 33px;
+    bottom: -2px;
+}
+
+.cell-participating-ticket p {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 16px;
+    position: absolute;
+    width: 300px;
+    right: 0;
+    left: 8px;
+    bottom: -3px;
+}
+
+#how-it-works {
+    background: #f9f9f9;
+}
+
+#how-it-works h1 {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+#arrow1-2 {
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 20px;
+}
+
+#arrow3-4 {
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 20px;
+}
+
+.step-1 {
+    text-align: center;
+}
+
+.step-number {
+    background: #46aad5;
+    width: 37px;
+    color: #ffffff;
+    height: 37px;
+    border-radius: 100%;
+    margin: 0 auto;
+    border: 5px solid #c7e3ef;
+}
+
+#step-1-img {
+    margin: 5px 0 5px 0;
+}
+
+.step-1 h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #46aad5;
+}
+
+.step-number p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+#step-2 {
+    text-align: center;
+}
+
+#step-2-img {
+    margin: 5px 0 5px 0;
+}
+
+.step-2 h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #46aad5;
+}
+
+.bottom-row {
+    margin-top: 30px;
+}
+
+#step-3 {
+    text-align: center;
+}
+
+#step-3-img {
+    margin: 5px 0 5px 0;
+}
+
+.step-3 h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #46aad5;
+}
+
+#step-4 {
+    text-align: center;
+}
+
+#step-4-img {
+    margin: 5px 0 5px 0;
+}
+
+.step-4 h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #46aad5;
+}
+
+#cell-buy-tickets {
+    text-align: center;
+}
+
+#cell-buy-tickets-button {
+    width: 300px;
+    height: 40px;
+    background: #ff8e00;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #888888;
+}
+
+#cell-buy-tickets-button:hover {
+    background: #ffae49;
+    transition: 0.25s;
+}
+
+.draw-name-cell {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 120px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.draw-date-cell {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    top: 12px;
+    bottom: 0;
+    left: 140px;
+    right: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cell-game-image {
+    position: absolute;
+    margin: 5px 0 0 -10px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 210px !important;
+    left: 0;
+    opacity: 1 !important;
+}
+
+#cell-live-results {
+    margin-top: 20px;
+}
+
+
+/*================  Online Statistics Cell
+=======================================================================*/
+
+#statistics-cell {
+    position: relative;
+    height: 250px;
+}
+
+.header-statistics-cell .absolute {
+    position: absolute;
+    left: 46px;
+    top: 27px;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.header-statistics-cell {
+    position: absolute;
+    padding-right: 0;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.header-statistics img {
+
+}
+
+.online-user-image-cell {
+    margin-left: 14px;
+}
+
+.moneybag-cell {
+    margin-left: 3px;
+}
+
+.header-statistics-cell h4 {
+    color: #000000;
+    padding-left: 35px;
+    margin-bottom: 5px;
+}
+
+.header-statistics-cell p {
+    letter-spacing: 20px;
+}
+
+.million-cell {
+    position: absolute;
+    top: 100px;
+    right: 33px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+/*================  Our Benefits
+=======================================================================*/
+
+#our-benefits-cell {
+    text-align: center;
+    background: #f7f7f7;
+}
+
+
+
+.benefits img {
+    width: 90px;
+}
+
+.benefits .secure {
+    margin: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .benefits img {
+        width: 140px;
+    }
+
+    .benefits .secure {
+        margin: 15px 0 !important;
+    }
+}
+
+/*================  Footer Cell
+=======================================================================*/
+
+#footer-cell {
+    height: 40px;
+    width: 100%;
+    background: #000000;
+}
+
+#footer-cell a {
+    color: #ffffff;
+    text-decoration: underline;
+    position: relative;
+    top: 10px;
+    margin: 0 20px;
+}
+
+#footer-cell-terms {
+    float: left;
+}
+
+#footer-cell-policy {
+    float: right;
+}
+
+#cell-footer-social {
+    background: #066690;
+    position: relative;
+    height: 260px;
+}
+
+.social-footer-cell {
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    top: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #066690;
+
+}
+
+.social-footer-cell img {
+
+}
+
+.social-circle-cell {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    margin: 0 0.5em;
+    position: relative;
+    display: inline-block !important;
+}
+
+.social-circle-cell a {
+    position: absolute;
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    top: 4px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-shadow: none;
+}
+
+#view-desktop-version {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #ffffff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: none;
+    position: absolute;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+}
+
+
+
+/* General styles for all menus */
+
+.cbp-spmenu {
+    background: #ffffff;
+    position: fixed;
+}
+
+.cbp-spmenu img {
+    margin-right: 10px;
+}
+
+.cbp-spmenu a {
+    display: block;
+    color: #0da6cb;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.cbp-spmenu a:hover {
+    background: #efefef;
+    border-left: 3px solid #ff8e00;
+    text-decoration: none;
+}
+
+.cbp-spmenu a:active {
+    background: #afdefa;
+    color: #47a3da;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+    width: 240px;
+    height: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+    border-bottom: 1px solid #efefef;
+    padding: 1em;
+}
+
+.cbp-spmenu-horizontal {
+    width: 100%;
+    height: 150px;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.cbp-spmenu-horizontal h3 {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.cbp-spmenu-horizontal a {
+    float: left;
+    width: 20%;
+    padding: 0.8em;
+    border-left: 1px solid #258ecd;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+    left: -240px;
+}
+
+.cbp-spmenu-right {
+    right: -240px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+    left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+    right: 0px;
+}
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
